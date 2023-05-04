@@ -1,4 +1,6 @@
-/* insert code */
+a {
+  color: green;
+}
 
 i {
   color: red;
@@ -20,6 +22,22 @@ p .line {
   text-decoration: underline;
 }
 
+.odd .line {
+  color: blue;
+}
+
 b {
   color: purple;
+}
+
+.even b {
+  text-decoration: underline;
+}
+
+a[href^="http://"] {
+  color: red;
+}
+
+a[href$=".com"] {
+  color: black;
 }
