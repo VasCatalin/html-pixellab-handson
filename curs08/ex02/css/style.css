@@ -125,29 +125,3 @@ h1 {
   font-size: 35px;
 }
 
-ol a {
-  font-family: 'Roboto-Regular', sans-serif;
-  font-weight: 700;
-}
-
-ul li {
-  font-family: 'Julius Sans One', sans-serif;
-  line-height: 25px;
-}
-
-h3 {
-  font-family: 'Roboto-bold', sans-serif;
-  color:green;
-  font-size: 28px;
-}
-
-h2 {
-  font-family: 'Julius Sans One', sans-serif;
-  color: purple;
-  text-decoration: underline;
-  font-size: 32px;
-}
-
-p {
-  line-height: 23px;
-}
