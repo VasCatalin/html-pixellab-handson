@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=edge"
+  >
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Bootstrap Ex2</title>
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+    crossorigin="anonymous"
+  >
+</head>
+
+<body>
+
+  <div class="container">
+    <p>
+      <a
+        href="/"
+        title="Home"
+      >Home</a> *
+
+      <a
+        href="/"
+        title="Place Order"
+      ><b>Place Order</b></a> *
+    </p>
+
+    <h1>Place Order</h1>
+
+    <p>
+      This is the <b>guest checkout</b>.
+    </p>
+
+    <p class="text-center">
+      On our website <i>no account is needed</i>.
+    </p>
+  </div>
+
+  <form
+    action="submit"
+    class="container"
+  >
+    <div class="row">
+      <fieldset class="col-4">
+        <legend>Personal Information</legend>
+
+        <div>
+          <label>Title:</label>
+
+          <label for="male">Mr:</label>
+          <input
+            type="radio"
+            name="gender"
+            id="male"
+            value="male"
+            checked
+          >
+
+          <label for="female">Ms:</label>
+          <input
+            type="radio"
+            name="gender"
+            id="female"
+            value="fenale"
+          >
+
+          <label for="na">Unspecified:</label>
+          <input
+            type="radio"
+            name="gender"
+            id="na"
+            value="na"
+          >
+        </div>
+
+        <div class="input-group">
+          <label
+            for="name"
+            class="input-group-text"
+          >Name*</label>
+
+          <input
+            class="form-control"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name"
+            required
+          >
+        </div>
+
+      </fieldset>
+
+      <fieldset class="col-4">
+        <legend>Adress</legend>
+
+        <div class="input-group">
+          <label
+            for="address-state"
+            class="input-group-text"
+          >State*</label>
+
+          <select
+            name="address-state"
+            id="address-state"
+            class="form-control"
+          >
+            <option value="">--State--</option>
+            <option value="brasov">Brasov</option>
+            <option value="constanta">Constanta</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <fieldset class="col-4">
+        <legend>Card Information</legend>
+
+        <span class="fst-italic">We do not store credit card information!</span>
+      </fieldset>
+    </div>
+
+    <div class="mt-4 row">
+      <fieldset class="offset-3 col-6">
+        <legend>Form controls</legend>
+
+        <div class="row">
+          <div class="col-6">
+            <button
+              type="submit"
+              title="Place Order"
+              class="text-uppercase btn btn-primary d-block w-100"
+            >Place order</button>
+          </div>
+
+          <div class="col-6">
+            <button
+              type="reset"
+              title="Reset"
+              class="btn btn-secondary d-block w-100"
+            >Reset</button>
+          </div>
+        </div>
+
+      </fieldset>
+    </div>
+
+  </form>
+</body>
+
+</html>
