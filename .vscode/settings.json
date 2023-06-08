@@ -30,6 +30,6 @@
   },
   "json.schemas": [],
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "liveServer.settings.port": 5501,
+  "liveServer.settings.port": 5502,
   "livePreview.defaultPreviewPath": "/curs10/ex10/index.html"
 }
